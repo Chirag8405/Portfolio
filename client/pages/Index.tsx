@@ -7,22 +7,22 @@ import { Contact } from "@/components/portfolio/Contact";
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="snap-scroll-container min-h-screen bg-background">
       <Navigation />
-      <main className="snap-y snap-mandatory overflow-y-scroll h-screen">
-        <div className="snap-start">
+      <main>
+        <div className="snap-scroll-section">
           <Hero />
         </div>
-        <div className="snap-start">
+        <div className="snap-scroll-section">
           <Skills />
         </div>
-        <div className="snap-start">
+        <div className="snap-scroll-section">
           <Projects />
         </div>
-        <div className="snap-start">
+        <div className="snap-scroll-section">
           <Experience />
         </div>
-        <div className="snap-start">
+        <div className="snap-scroll-section">
           <Contact />
         </div>
       </main>
