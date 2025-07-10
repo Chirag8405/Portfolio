@@ -19,6 +19,7 @@ const timelineData = [
       { name: "Vite", icon: "⚡" },
     ],
     link: "#",
+    award: undefined,
   },
 
 
@@ -29,6 +30,7 @@ const timelineData = [
     description:
       "Began pursuing Bachelor of Technology in Information Technology at Vivekanand Education Society's Institute of Technology, focusing on software development and emerging technologies.",
     logo: "🎓",
+    award: undefined,
   },
   
   {
@@ -42,6 +44,7 @@ const timelineData = [
       { name: "HTML", icon: "🌐" },
       { name: "CSS", icon: "🎨" },
     ],
+    award: undefined,
   },
 ];
 
