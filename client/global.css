@@ -179,4 +179,14 @@
   .animate-pulse-glow {
     animation: pulse-glow 2s ease-in-out infinite;
   }
+      .snap-scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  height: 100vh;
 }
+.snap-scroll-section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+}
+}
+
