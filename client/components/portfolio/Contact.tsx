@@ -143,7 +143,7 @@ export function Contact() {
     >
       <div className="w-full max-w-6xl mx-auto px-8">
         {/* Hidden form for Netlify detection */}
-        <form name="contact" netlify hidden>
+        <form name="contact" method="POST" data-netlify="true" hidden>
           <input type="text" name="name" />
           <input type="email" name="email" />
           <input type="text" name="subject" />
